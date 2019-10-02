@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0f0f5;
+  font-family: helvetica;
+  margin: 7px;
+}
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+height: 1200px;
+align-items: flex-start;
+}
+.hovedmenu, .undermenu, footer {
+  width: 100%;
+  margin: 5%;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9494b8;
+    height: 3em;
+    color: #0d0d0d;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.menu a:hover {
+  background: #60a9c1;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li {
+    width: 100%;
+}
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
+.dropdown li {
+    display: none;
+}
+.menu li:hover .dropdown li {
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+  height: 40px;
+}
+.logo-billede {
+height: 70%;
+width: auto;
+border-radius: 20px;
+}
+.hovedmenu {
+  height: 40px;
+}
+.undermenu {
+  display: none;
+}
+article {
+  float: left;
+}
+footer {
+  margin: 5px;
+  height: 30px;
+  outline: 1px solid #666;
+  width: 100%;
+  display: flex;
+  padding: 1%;
+  margin-top: 20%;
+  font-family: helvetica;
+}
+p {
+  font-family: Optima;
+  margin-bottom: 2%;
+}
+.nu {
+  float: left;
+}
+.nu img {
+  height: 300px;
+  width: auto;
+}
+.nu p {
+  margin-top: 5%;
+}
+.god {
+  float: right;
+}
+.god img {
+  height: 400px;
+  width: auto;
+  float: right;
+}
+.god p {
+  margin-top: 5%;
+}
+.fremtid {
+  float: left;
+}
+.fremtid img {
+  height: 300px;
+  width: auto;
+  margin-bottom: 5%;
+}
+.fremtid p {
+  margin-top: 5%;
+}

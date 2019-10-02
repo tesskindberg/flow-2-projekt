@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0f0f5;
+  font-family: helvetica;
+  margin: 7px;
+  background-image: url(billeder/lavendel.jpg);
+}
+.hovedmenu, .undermenu, footer {
+  width: 100%;
+  margin: 5%;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9494b8;
+    height: 3em;
+    color: #0d0d0d;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.menu a:hover {
+  background: #60a9c1;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li {
+    width: 100%;
+}
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
+.dropdown li {
+    display: none;
+}
+.menu li:hover .dropdown li {
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+  height: 40px;
+}
+.logo-billede {
+height: 70%;
+width: auto;
+border-radius: 20px;
+}
+.hovedmenu {
+  height: 40px;
+}
+.undermenu {
+  display: none;
+}
+article {
+  float: left;
+}
+footer {
+  margin: 5px;
+  margin-top: 10%;
+  height: 30px;
+  outline: 1px solid white;
+  width: 100%;
+  display: flex;
+  padding: 1%;
+  color: white;
+  font-family: helvetica;
+}
+.form {
+  margin-top: 25px;
+  text-align: center;
+}
+.besked {
+  margin-left: 60px;
+}
+.fab {
+  margin-top: 25px;
+  margin-right: 7px;
+  color: white;
+}
