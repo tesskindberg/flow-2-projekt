@@ -77,7 +77,7 @@ article {
 }
 footer {
   margin: 5px;
-  margin-top: 15px;
+  margin-top: 10%;
   height: 30px;
   outline: 1px solid #666;
   width: 100%;
@@ -85,8 +85,8 @@ footer {
   padding: 1%;
   font-family: helvetica;
 }
-p {
-  margin-bottom: 10%;
+.p-vid {
+  margin-bottom: 3%;
 }
 .video {
   margin-left: 15%;
@@ -101,6 +101,7 @@ p {
   display: flex;
   font-family: helvetica;
   margin: 1em;
+  margin-top: 10%;
 }
 .text {
   position: absolute;
